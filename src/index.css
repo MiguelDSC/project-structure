@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  background-color: #eff2f7;
+  font-family: proxima-nova, ProximaNova, Arial, Helvetica, sans-serif;
+  color: #001945;
+}
