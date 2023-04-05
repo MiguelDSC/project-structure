@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Button } from "@foleon/atomic";
 import dummyFolderList, { FolderItemType } from "../folder/DummyFolderList";
 
 type CreateFolderModalProps = {
@@ -105,7 +104,7 @@ export default function CreateFolderModal(props: CreateFolderModalProps) {
                 >
                   Cancel
                 </button>
-                <Button type="submit">Create</Button>
+                <button type="submit">Create</button>
               </span>
             </form>
           </div>
